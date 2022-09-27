@@ -1,0 +1,14 @@
+<script>
+
+
+
+    $(function () {
+
+        initStartObject();
+
+
+    });
+
+
+</script>
+

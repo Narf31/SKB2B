@@ -1,0 +1,364 @@
+//        //
+//        //
+// Header //
+//        //
+//        //
+.header {
+	background-color: $grey-50;
+	border-bottom: 1px solid $grey-300;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	@include box-shadow(0 3px 3px 0 rgba(0, 0, 0, .1));
+	// Left part of header
+	//
+	.left-side {
+		display: inline-block;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 15px;
+		.logo {
+			display: inline-block;
+			cursor: pointer;
+			margin-right: 20px;
+			img {
+				display: block;
+				width: 160px;
+				height: auto;
+			}
+		}
+		// Search bar
+		//
+		.search-box {
+			display: inline-block;
+			max-width: 300px;
+			.search {
+				position: relative;
+				display: table;
+				border-collapse: separate;
+				input {
+					position: relative;
+					display: block;
+					border-top-left-radius: 2px;
+					border-bottom-left-radius: 2px;
+					border: 1px solid $grey-300;
+					float: left;
+					height: 32px;
+					padding: 0 12px;
+					font-size: 14px;
+					color: $grey-900;
+					background-color: $white;
+					-webkit-transition: border-color ease-in-out .20s, -webkit-box-shadow ease-in-out .20s;
+					-o-transition: border-color ease-in-out .20s, box-shadow ease-in-out .20s;
+					transition: border-color ease-in-out .20s, box-shadow ease-in-out .20s;
+					&:focus {
+						border-color: $blue-500;
+						outline: 0;
+					}
+				}
+				.input-group-btn {
+					display: block;
+					button {
+						border-top-left-radius: 0;
+						border-bottom-left-radius: 0;
+					}
+				}
+			}
+			.search-note {
+				display: block;
+				font-size: 11px;
+				font-style: italic;
+			}
+		}
+	}
+	// Right part of header
+	//
+	.right-side {
+		position: relative;
+		display: flex;
+		float: right;
+		margin-right: 15px;
+		align-items: center;
+		// Messages preview dropdown
+		//
+		.dropdown-messages {
+			display: none;
+			position: absolute;
+			top: 95px;
+			left: -20px;
+			width: 315px;
+			height: auto;
+			background-color: $white;
+			border: 1px solid $grey-300;
+			box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
+			&:before {
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 0 10px 10px 10px;
+				border-color: transparent transparent #e0e0e0 transparent;
+				top: -10px;
+				left: 62px;
+				content: ' ';
+			}
+			&:after {
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 0 8px 8px 8px;
+				border-color: transparent transparent #ffffff transparent;
+				top: -8px;
+				left: 64px;
+				content: ' ';
+			}
+			.messages-list {
+				overflow: auto;
+				max-height: 400px;
+				li {
+					border-bottom: 1px solid $grey-300;
+					&:first-child {
+						margin-top: 15px;
+					}
+					&:last-child {
+						margin-bottom: 15px;
+						border-bottom: 0;
+					}
+					a {
+						display: flex;
+						color: $grey-900;
+						min-height: 75px;
+						padding-top: 10px;
+						padding-bottom: 10px;
+						background-color: $white;
+						@include transition(background-color .7s ease-out);
+						&:hover, &:focus {
+							text-decoration: none;
+							background-color: $grey-50;
+						}
+						.message-user-pic {
+							display: inline-block;
+							margin-left: 15px;
+							> img {
+								width: 50px;
+								height: 50px;
+								border-radius: 50px;
+							}
+						}
+						.message-body {
+							display: inline-block;
+							margin-left: 15px;
+							margin-right: 15px;
+							.message-info {
+								font-size: 11px;
+								> .user-name {
+									color: $blue-700;
+								}
+								> .order-number {
+									float: right;
+								}
+								> .order-red {
+									color: $red-500;
+								}
+							}
+							.message-text {
+								margin-bottom: 5px;
+								width: 205px;
+							}
+							.message-time {
+								font-size: 11px;
+								line-height: 1;
+								text-align: right;
+								color: $grey-500;
+							}
+						}
+					}
+				}
+			}
+		}
+		// Hot buttons
+		//
+		.quick-menu {
+			display: inline-block;
+			border-left: 1px solid $grey-300;
+			border-right: 1px solid $grey-300;
+			margin: 0;
+			padding-left: 15px;
+			padding-right: 15px;
+			> li {
+				float: left;
+				display: inline-block;
+				padding: 0 15px;
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					padding-right: 0;
+				}
+				> a {
+					position: relative;
+					display: block;
+					margin-top: 16px;
+					margin-bottom: 16px;
+					&:hover:before, &:focus:before {
+						opacity: .8;
+					}
+					&:visited {
+						color: $grey-800;
+					}
+					&:before {
+						display: block;
+						content: ' ';
+						width: 30px;
+						height: 30px;
+						margin-left: auto;
+						margin-right: auto;
+					}
+					.bubble {
+						top: 0;
+						right: 10%;
+						position: absolute;
+						display: block;
+						font-size: 12px;
+						line-height: 1;
+						min-width: 12px;
+						padding: 3px 6px;
+						background-color: $red-500;
+						color: $white;
+						text-align: center;
+						border-radius: 100px;
+					}
+				}
+			}
+			.navbar-top-ico-message:before {
+				background-image: url('../img/icons/message.svg');
+			}
+			.navbar-top-ico-notice:before {
+				background-image: url('../img/icons/notice.svg');
+			}
+			.navbar-top-ico-help:before {
+				background-image: url('../img/icons/help.svg');
+			}
+		}
+		// User account information
+		//
+		.account-info {
+			position: relative;
+			> a {
+				position: relative;
+				display: block;
+				margin: 15px;
+				line-height: 0;
+				cursor: pointer;
+				@include transition(opacity .20s ease-out);
+				&:hover, &:focus {
+					opacity: .8;
+				}
+				> img {
+					border-radius: 100px;
+					width: 50px;
+					height: 50px;
+				}
+			}
+			.account-info-dropdown {
+				position: absolute;
+				display: none;
+				width: 300px;
+				height: auto;
+				top: 95px;
+				right: 0;
+				padding: 20px 15px;
+				background-color: $white;
+				border: 1px solid $grey-300;
+				box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
+				&:after {
+					position: absolute;
+					background-color: $white;
+					border: 1px solid $grey-300;
+					border-bottom: 1px solid transparent;
+					border-right: 1px solid transparent;
+					width: 10px;
+					height: 10px;
+					top: -5px;
+					right: 35px;
+					content: ' ';
+					-webkit-transform: rotate(45deg);
+					transform: rotate(45deg);
+				}
+				.account-picture {
+					display: inline-block;
+					vertical-align: top;
+					line-height: 0;
+					> a {
+						position: relative;
+						display: block;
+						&:hover .edit-photo, &:focus .edit-photo {
+							opacity: 1;
+						}
+						> img {
+							width: 90px;
+							height: 90px;
+							border-radius: 90px;
+						}
+						> .edit-photo {
+							position: absolute;
+							display: block;
+							top: 0;
+							text-align: center;
+							padding: 45px 0;
+							color: $white;
+							width: 90px;
+							height: 90px;
+							border-radius: 90px;
+							background-color: rgba(0, 0, 0, .5);
+							opacity: 0;
+							@include transition(opacity .20s ease-out);
+						}
+					}
+				}
+				.account-body {
+					position: relative;
+					display: inline-block;
+					margin-left: 15px;
+					max-width: 159px;
+					span {
+						display: block;
+						line-height: 1;
+					}
+					.account-title {
+						font-size: 15px;
+						margin-bottom: 6px;
+					}
+					.account-company {
+						font-size: 11px;
+						font-style: italic;
+						margin-bottom: 8px;
+					}
+					.account-email {
+						color: $grey-500;
+						margin-bottom: 15px;
+					}
+					.account-logout {
+						position: relative;
+						color: $red-500;
+						padding-left: 26px;
+						@include transition(opacity .20s ease-out);
+						&:hover, &:focus {
+							opacity: .7;
+						}
+						&:before {
+							position: absolute;
+							content: ' ';
+							top: -5px;
+							left: 0;
+							background-image: url('../img/icons/logout.svg');
+							width: 24px;
+							height: 24px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

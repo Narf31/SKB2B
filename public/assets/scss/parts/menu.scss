@@ -1,0 +1,250 @@
+// Main left sidebar menu
+//
+.main-menu {
+	position: relative;
+	background-color: $grey-800;
+	color: $white;
+	z-index: 5;
+	@include box-shadow(2px 0 2px 0 rgba(0, 0, 0, .1));
+	.main-menu-list {
+		position: fixed;
+		display: block;
+		overflow: hidden;
+		width: 60px;
+		padding: 15px 0;
+		&.main-menu-list-open {
+			width: 240px;
+		}
+		.main-menu-item {
+			display: block;
+			position: relative;
+			cursor: pointer;
+			white-space: nowrap;
+			opacity: .6;
+			-webkit-transition: opacity .15s ease-out;
+			transition: opacity .15s ease-out;
+			&:hover, &:focus, {
+				opacity: 1;
+			}
+			.main-menu-item-ico {
+				display: block;
+				position: absolute;
+				top: 8px;
+				left: 14px;
+				width: 32px;
+				height: 32px;
+			}
+			.main-menu-item-title {
+				color: $white;
+				opacity: 0;
+				font-size: 15px;
+				line-height: 18px;
+				padding: 15px 15px 15px 50px;
+				-webkit-transition: opacity .15s ease-out;
+				transition: opacity .15s ease-out;
+			}
+			.main-menu-item-title-open {
+				opacity: 1;
+			}
+			// Icons
+			//
+			.ico-clients {
+				background-image: url('../img/icons/clients.svg');
+			}
+			.ico-manager {
+				background-image: url('../img/icons/manager.svg');
+			}
+			.ico-cashbox {
+				background-image: url('../img/icons/cashbox.svg');
+			}
+			.ico-sales-service {
+				background-image: url('../img/icons/sales_service.svg');
+			}
+			.ico-trucks {
+				background-image: url('../img/icons/trucks.svg');
+			}
+			.ico-wallet {
+				background-image: url('../img/icons/wallet.svg');
+			}
+			.ico-users {
+				background-image: url('../img/icons/users.svg');
+			}
+			.ico-organisations {
+				background-image: url('../img/icons/organisations.svg');
+			}
+			.ico-costs {
+				background-image: url('../img/icons/costs.svg');
+			}
+			.ico-settings {
+				background-image: url('../img/icons/settings.svg');
+			}
+		}
+	}
+	.drowdown-panel {
+		position: absolute;
+		display: none;
+		left: 100%;
+		height: 100%;
+		top: 0;
+		width: 260px;
+		color: $grey-900;
+		background-color: $white;
+		@include box-shadow(2px 0 2px 0 rgba(0, 0, 0, .1));
+		&.active {
+			display: block;
+		}
+		.title {
+			display: block;
+			font-size: 18px;
+			margin-top: 15px;
+			margin-right: 15px;
+			margin-bottom: 0;
+			margin-left: 15px;
+		}
+		.btn {
+			margin-left: 15px;
+		}
+		ul {
+			padding: 15px 0;
+			margin: 0;
+			a {
+				position: relative;
+				display: block;
+				line-height: 20px;
+				color: $grey-900;
+				padding: 10px 15px 10px 55px;
+				-webkit-transition: background-color .15s ease-out;
+				transition: background-color .15s ease-out;
+				&:hover, &:focus {
+					text-decoration: none;
+					background-color: $blue-50;
+				}
+				&:before {
+					content: ' ';
+					position: absolute;
+					opacity: .8;
+					left: 15px;
+					top: 4px;
+					width: 32px;
+					height: 32px;
+					background-size: cover;
+				}
+			}
+			// icons
+			//
+			.ico-cash:before {
+				background-image: url('../img/icons/cash.svg');
+			}
+			.ico-credit-cards:before {
+				background-image: url('../img/icons/credit_cards.svg');
+			}
+			.ico-truck:before {
+				background-image: url('../img/icons/truck.svg');
+			}
+			.ico-trailer:before {
+				background-image: url('../img/icons/trailer.svg');
+			}
+			.ico-salary:before {
+				background-image: url('../img/icons/salary.svg');
+			}
+			.ico-calendar:before {
+				background-image: url('../img/icons/calendar.svg');
+			}
+			.ico-employers:before {
+				background-image: url('../img/icons/employers.svg');
+			}
+			.clients_dark:before {
+				background-image: url('../img/icons/clients_dark.svg');
+			}
+			.ico-orders:before {
+				background-image: url('../img/icons/orders.svg');
+			}
+			.ico-orders-map:before {
+				background-image: url('../img/icons/orders_map.svg');
+			}
+			.ico-user-roles:before {
+				background-image: url('../img/icons/user_roles.svg');
+			}
+			.ico-fuel:before {
+				background-image: url('../img/icons/fuel.svg');
+			}
+			.ico-parts:before {
+				background-image: url('../img/icons/parts.svg');
+			}
+			.ico-etc-parts:before {
+				background-image: url('../img/icons/etc_parts.svg');
+			}
+			.organisations_dark:before {
+				background-image: url('../img/icons/organisations_dark.svg');
+			}
+			.ico-fin-politics:before {
+				background-image: url('../img/icons/fin_politics.svg');
+			}
+			.ico-units:before {
+				background-image: url('../img/icons/units.svg');
+			}
+			.ico-banks:before {
+				background-image: url('../img/icons/banks.svg');
+			}
+			.ico-status-money:before {
+				background-image: url('../img/icons/status_money.svg');
+			}
+		}
+	}
+	// A wider version of sidebar menu
+	//
+	.main-menu-expand {
+		display: block;
+		position: fixed;
+		cursor: pointer;
+		white-space: nowrap;
+		opacity: .6;
+		bottom: 0;
+		overflow: hidden;
+		-webkit-transition: opacity .15s ease-out;
+		transition: opacity .15s ease-out;
+		&:hover, &:focus {
+			opacity: 1;
+		}
+		.main-menu-expand-ico {
+			display: block;
+			position: absolute;
+			top: 12px;
+			left: 18px;
+			width: 24px;
+			height: 24px;
+			background-image: url('../img/icons/chevron_right.svg');
+			-webkit-transition: transform .4s;
+			transition: transform .4s;
+		}
+		.main-menu-expand-ico-collapse {
+			-webkit-transform: rotate(180deg);
+			transform: rotate(180deg);
+		}
+		.main-menu-expand-title {
+			color: $white;
+			font-size: 15px;
+			line-height: 18px;
+			opacity: 0;
+			padding: 15px 15px 15px 50px;
+			-webkit-transition: opacity .15s ease-out;
+			transition: opacity .15s ease-out;
+		}
+		.main-menu-expand-title-open {
+			opacity: 1;
+		}
+	}
+}
+// Narrow menu size
+//
+.main-menu-nested {
+	width: 60px;
+	-webkit-transition: width .3s 60ms;
+	transition: width .3s 60ms;
+}
+
+// Wide menu sizes
+//
+.main-menu-extended {
+	width: 240px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="56px" viewBox="0 0 40 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>5C7AE3CA-E45E-4EE0-BF7A-8E243398DC02</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Иконки" transform="translate(-432.000000, -438.000000)">
+            <g id="Group-12" transform="translate(420.000000, 434.000000)">
+                <path d="M44,36 L20,36 L20,20 C20,13.383 25.383,8 32,8 C38.617,8 44,13.383 44,20 L44,36 Z M32,4 C23.163,4 16,11.163 16,20 L16,40 L48,40 L48,20 C48,11.163 40.837,4 32,4 L32,4 Z" id="Fill-4" fill="#E5E5E5"></path>
+                <path d="M32.6348,60 L31.3648,60 C20.6698,60 11.9998,51.33 11.9998,40.635 L11.9998,33.19 C11.9998,31.428 13.4278,30 15.1908,30 L48.8108,30 C50.5718,30 51.9998,31.428 51.9998,33.189 L51.9998,40.635 C51.9998,51.33 43.3298,60 32.6348,60" id="Fill-1" fill="#01B49F"></path>
+                <path d="M36,40 C36,37.791 34.209,36 32,36 C29.791,36 28,37.791 28,40 C28,41.477 28.81,42.752 30,43.445 L30,48 C30,49.1 30.9,50 32,50 C33.1,50 34,49.1 34,48 L34,43.445 C35.19,42.752 36,41.477 36,40" id="Fill-6" fill="#078475"></path>
+            </g>
+        </g>
+    </g>
+</svg>

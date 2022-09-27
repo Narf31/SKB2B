@@ -1,0 +1,288 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.wrapper {
+    padding-bottom: 207px;
+    padding-top: 0px;
+}
+
+#login {
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 1000px;
+    background: url("/assets/new/img/background.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+#login #footer {
+    height: 124px;
+}
+
+#login #footer .footer-in {
+    height: 124px;
+}
+
+#login .footer-in .cont-in {
+    padding-top: 15px;
+}
+
+#login .foot-right .phone a {
+    float: left;
+    display: block;
+    margin-right: 4px;
+}
+
+#login .foot-right .mail {
+    float: left;
+}
+
+.login-block {
+    background: #ffffff;
+    position: relative;
+    width: 512px;
+    height: 618px;
+    margin: 165px auto 0;
+    -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 10px 40px rgba(0, 0, 0, .75);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .75);
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.login-block.account-activation {
+    min-height: 500px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.login-block.set-password {
+    min-height: 300px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.login-top {
+    height: 195px;
+    background: url("/assets/new/img/bg4.jpg") no-repeat center bottom;
+    margin-bottom: 49px;
+}
+
+.login-top .logo {
+
+    /*background: url("/assets/new/img/lion_logo.png") no-repeat 0 0;*/
+    background: url("/assets/new/img/logo.png") no-repeat 0 0;
+    width: 40%;
+    height: 150px;
+    margin: 42px 30%;
+    display: block;
+    float: left;
+    background-size: 100%;
+}
+
+.az {
+    width: 296px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.az:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.az h1 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.az .form-row {
+    margin-bottom: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.az .form-row:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.az label {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #7d7f81;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.az .t-inp {
+    text-align: left;
+    height: 39px;
+    line-height: 39px;
+}
+
+.az-bottom {
+    margin-bottom: 46px;
+    margin-top: 35px;
+}
+
+.az-bottom:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.az-bottom .check {
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.az-bottom .check label {
+    font-size: 14px;
+}
+
+.az-bottom .btn {
+    width: 128px;
+    height: 38px;
+    line-height: 25px;
+    font-size: 18px;
+    display: inline-block;
+    float: none;
+}
+
+.az .form-row span.show-password {
+    margin-top: -28px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #999;
+    display: none;
+    float: right;
+    position: relative;
+}
+
+.az .form-row span.show-password:hover {
+    color: #666;
+}
+
+.az .label-container {
+    height: 18px;
+}
+
+#restoreForm .btn, #setPasswordForm .btn {
+    width: 208px;
+}
+
+.az .pass {
+    font-size: 14px;
+    line-height: 16px;
+    color: #de4120;
+    text-decoration: underline;
+}
+
+.az .pass:hover {
+    text-decoration: none;
+}
+
+.az > div > p {
+    text-align: justify;
+    margin-top: -30px;
+    font-size: 12px;
+}
+
+.acc-activation-btn {
+    width: 295px!important;
+}
+
+.content_inner h1 {
+    font-size: 22px;
+    color: #666666;
+    padding-bottom: 23px;
+    font-weight: normal;
+    font-family: 'font/helveticaneuecyrlight';
+}
+
+#password-validate-tooltip {
+    font-size: 13px;
+}
+
+@media screen and (max-height: 1051px) {
+    .login-block {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-height: 1025px) {
+    .login-block {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-height: 801px) {
+    .login-block {
+        margin-top: 85px;
+        height: 454px;
+    }
+
+    .login-top {
+        height: 140px;
+        margin-bottom: 15px;
+    }
+
+    .login-top .logo {
+        /*height: 91px;*/
+        width: 40%;
+        margin: 12px 30%;
+    }
+
+    .az h1 {
+        margin-bottom: 10px;
+    }
+
+    .az-bottom {
+        margin-bottom: 16px;
+        margin-top: 15px;
+    }
+}
+
+.has-error .form-control {
+    border: 2px solid red;
+}
+
+.has-succ .form-control {
+    border: 2px solid green;
+}
+
+#footer {
+    height: 150px;
+    min-width: 1000px;
+    position: relative;
+    margin-top: -150px;
+}
+
+#footer .footer-in {
+    height: 150px;
+}
+
+.tooltip {
+    top: -16px;
+    left: 300px;
+    z-index:1040;
+}
+
+.tooltip-inner {
+    min-width: 200px;
+    text-align: left;
+}

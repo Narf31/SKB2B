@@ -1,0 +1,390 @@
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> POST /api/v2/documents/ HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+Content-Length: 696
+Content-Type: application/json; charset=utf-8
+X-Signature: fyv+ZBfWS2wadESn95cxm5vnMTpaUeuVqxx6EMNY+u6mz6LNkQytNjJCbQfsI7PKbLhcjioenmyApBkMb4iz7/MnSCoPxQvO6b06SrAYGIEys/znYFMbIz9NioOPVa5S+OVeiw+kQOZ3W0jZAAWAnff1PkP3H8NYWfdUqZTnS1feIrVKpHWW73s5ai7xUOsT7G4/xxP9in/ouwjlGzjvIFPo0qex/KEYKlCtekfpx0JfFTRJlRt6efDXPdOolcnybqCxtuUFhqVeffLuKY+WCdCEIDPnrCVtyXcVzN+pd0o0DqL63NzIHdVmBjcgajP1hfTpITAEUUKVql484dy+JA==
+
+* upload completely sent off: 696 out of 696 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 14:39:28 GMT
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 74
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> POST /api/v2/documents/ HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+Content-Length: 696
+Content-Type: application/json; charset=utf-8
+X-Signature: lhzUjNfvriYo5EBn2yS7AD0C6E2KG0kZBu/gXguF2gf4tiX/P+qlmWJqp9WaMRk3Yih3rMR1epq9D+F9YW9YXsE5g0NP0VYsA5v47vkqww2VQ5jPERezdQHr6PpJ5FDtgUxI14JR6bVaJcYfHuX5YwYX0AO/lPQQzU/Bskl4yaGV4ma5B6RrCxuHI+UT7c8NzQySV9b/VIR/VUwLptnC4iMTupNFzrnlox8+5eyqxe7akmxVxIjoB8QS6eYDj+7PN/HhD96JhZMQQeRcZAmov7k7MCJU/FqrQAYmKwCu+w/WGhS9vw1MTCR2VAB75m9jOTiSF3wcDjvz/bv1i4tJxQ==
+
+* upload completely sent off: 696 out of 696 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 14:40:00 GMT
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 74
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> POST /api/v2/documents/ HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+Content-Length: 715
+Content-Type: application/json; charset=utf-8
+X-Signature: e9GNGyoA09he/1rZc6mQmdsvvpNHt31mAoStrvLwsKiuzcTFZD0WfN7a0DuaMyUQmxAlEN45DjRESeu/vUBKt72Mh5qA6kyOtmE4nynXvnRvsYF0VPTzmfB3KziX+v5ItBOJXy8IozL8XGG3E4mCCCtWBxZ2SYHQieoAD3eKIYEVq2mjgRx+duTRawNTzsBwGiQsQjV6y5qLazemUE8Tt0I2S/h8OZOwzfE29yxhfXdwsgLiXvGo2OmSW3JTw4CizPGkJbw+yQ2nW0IqxQayzyBVrZFtInJdPbvJHouPveMhQq1b4xO5OmbrwGtGY6UuKXtBoyZo/ZJr0tVUkZIYjA==
+
+* upload completely sent off: 715 out of 715 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 14:40:10 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> GET /api/v2/documents/7714819895/status/7f72cad9-471d-4dfc-90c5-0960212438cc HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 202 Accepted
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 14:40:10 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> POST /api/v2/documents/ HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+Content-Length: 715
+Content-Type: application/json; charset=utf-8
+X-Signature: k/jDnEPC0jQbxq/QtHGkpve4XBIvM6D/y8v8xbeGcMlrNsC7ECOPbY/hHBJcQbukizuGY3me0vZO7Dt3ddqoMHIMZTN22wiaN6PatjWSO7hqfjfah0/0E0vohSA6KfFJggERDH5ocgCHHL+S0/OOf30bjoOZ4fEBw5hiNk+Sh9qYVFp+tQA9/GRd/6i3EidSpyPKgh1UxtOQIMRz/RiwFSZbkN+kT/vX2J86XoBOg6mXnUTXyWEABcdh/A2XCWnoKSkGWXADIpzDPkWHlztN1A9QTjDn3QynBgyJJXwfYQNiWe3+tlUoZ+4QuoCryG6+Xbwc0voTsNculY0EnxH7Yw==
+
+* upload completely sent off: 715 out of 715 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 14:57:21 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> GET /api/v2/documents/7714819895/status/8092744c-28a1-4371-967d-2a022cad0a9c HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 202 Accepted
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 14:57:21 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> POST /api/v2/documents/ HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+Content-Length: 751
+Content-Type: application/json; charset=utf-8
+X-Signature: iJt8VN4rEnPKRX3DGJQghZ0TxIpfX9mcvhKuFkzop9SgaUxNQ219X0/BpwWTr7FItNAZZrf3yzXhGSD9Z5nRcs7iV/BPzo4MzEFjF7OtrjoUTTMKcGLZih/LjODpOfznUVzQspFkAq1wtvmz12wnjbj2aYHIAVJjb5ySiYHWs/M/ThVEQPY3ySBkpWs9PJghCxM1JFXUYigJFLXybWAaw5dRgXJQhd9c5+Wg4Nog716B5CJoXvJ+bPIOGFuQn8u6x+lXVat5xi47Mp00uRp/KdrGqSvhkO52ogjrg643GbZ4cSBmsH9ZzZmrq0I8VuLm8RM7EV/4RRDxWjU0FAPsFA==
+
+* upload completely sent off: 751 out of 751 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 15:01:13 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 62.76.112.48:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (62.76.112.48) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> GET /api/v2/documents/7714819895/status/d71dd367-61e1-4944-a145-d262944baade HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 202 Accepted
+< Server: nginx/1.12.0
+< Date: Tue, 03 May 2022 15:01:14 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 188.170.11.161:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (188.170.11.161) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> POST /api/v2/documents/ HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+Content-Length: 751
+Content-Type: application/json; charset=utf-8
+X-Signature: ou5Ly+PNV7c8ZpZAQG9zu6ts/jQ6aRooY20XSOu5Jguc5nwtiMjd1n7hHYdAqFJa3HRxYaTxcf4qCadPf7a4pt6J6ivJ2XUBSVDwUyRjgk10bkGi7YgCtS4RKVIiDMY6cO9/dp+T4/GeVLOWXBSySeGf18qJkzcJBHz3PWSw8RE8Q6OffEeyCKQTceLpUrmbKyOyZQ3CBf+c+svhzbUeSlD1MhhWftx49dLCbyMDMMy4lanm4xw2JUOLJV/LhzWKl97+5qwvZTXRKoN9VJt9gXxTj4zO1thphNXiWYRJvylezpTp8L9q/QY0oHQTkU3mX8dWbNmR5Ft/6LyvPhtMOQ==
+
+* upload completely sent off: 751 out of 751 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Server: nginx/1.16.1
+< Date: Wed, 04 May 2022 10:34:47 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 188.170.11.161:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (188.170.11.161) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> GET /api/v2/documents/7714819895/status/d67a758e-96f4-4532-9e1d-7df0bd983a09 HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 202 Accepted
+< Server: nginx/1.16.1
+< Date: Wed, 04 May 2022 10:34:47 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 188.170.11.161:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (188.170.11.161) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> POST /api/v2/documents/ HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+Content-Length: 751
+Content-Type: application/json; charset=utf-8
+X-Signature: b8e+Gz7iKdIhLNCRG2UmA84ZrIMjmmROLoC3AjuNvWQrtGIOjpnR4VXXbdN/URq8ns+y+vLnkQ7fdpYtnHV2Gp7J6O4BGZERvHD4cUYGI8lnm+RF7zSnjGvUMIdE+d4CFSdOGWMiZvcynjMSHIA1DTXkatrPTfwG3GnxniHL7C3DJwnlxst6pMd0B9dBAficXbFZ03E7D/HXsiHvNf5YZ0/hLLo9T/zjiueCMXNPuc6taHTkwkC5/uUF5M9ntm5Iook4ySgR1YC6e6S5ab/51GOLHGfhkx6f3vPadETQveaVKs1DoVg7kfZbRn/nd1aspmcjnFCgHUX8SOtpKQRr/A==
+
+* upload completely sent off: 751 out of 751 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Server: nginx/1.16.1
+< Date: Wed, 04 May 2022 10:34:53 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact
+*   Trying 188.170.11.161:12003...
+* TCP_NODELAY set
+* Connected to api.orangedata.ru (188.170.11.161) port 12003 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/htdocs/sst/b2b_tit/app/Services/PaymentAgent/OrangeData/secure_path_prod/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=RU; L=Moscow; O=AO ORANZH DATA; CN=*.orangedata.ru
+*  start date: Oct  5 00:00:00 2021 GMT
+*  expire date: Nov  2 23:59:59 2022 GMT
+*  subjectAltName: host "api.orangedata.ru" matched cert's "*.orangedata.ru"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Thawte TLS RSA CA G1
+*  SSL certificate verify ok.
+> GET /api/v2/documents/7714819895/status/d384c771-21a4-43e4-9c5e-aa20c8e288ea HTTP/1.1
+Host: api.orangedata.ru:12003
+Accept: */*
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 202 Accepted
+< Server: nginx/1.16.1
+< Date: Wed, 04 May 2022 10:34:54 GMT
+< Content-Length: 0
+< Connection: keep-alive
+< 
+* Connection #0 to host api.orangedata.ru left intact

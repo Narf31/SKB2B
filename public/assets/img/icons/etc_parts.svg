@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>etc_parts</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="etc_parts" fill-rule="nonzero" fill="#666666">
+            <g id="box" transform="translate(3.000000, 2.000000)">
+                <g id="Capa_1">
+                    <g id="Group">
+                        <polygon id="Shape" points="10.406639 10.1576763 9.51037344 10.6763485 9.51037344 20 17.5809129 15.340249 17.5809129 6.01659751"></polygon>
+                        <polygon id="Shape" points="11.8672199 1.7966805 8.76348548 0 0.468879668 4.78838174 3.57676349 6.58506224"></polygon>
+                        <polygon id="Shape" points="17.0539419 4.78838174 13.4771784 2.75103734 5.18672199 7.53941909 5.65975104 7.78423237 8.76348548 9.57676349 11.8506224 7.7966805"></polygon>
+                        <polygon id="Shape" points="4.56016598 10.966805 3.0746888 10.2033195 3.0746888 7.82987552 0.0124481328 6.06639004 0.0124481328 15.3236515 8.02489627 19.9502075 8.02489627 10.6929461 4.56016598 8.69709544"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.12 20">
+    <defs>
+        <style>.cls-1{fill:#fff;}.cls-2{fill:#01B49F;}</style>
+    </defs>
+    <g id="Слой_2" data-name="Слой 2">
+        <g id="Слой_1-2" data-name="Слой 1">
+            <g id="mask-2">
+                <polygon id="path-1" class="cls-1" points="10 0 0 10 10 20 12.12 17.88 4.24 10 12.12 2.12 10 0"/>
+            </g>
+            <g id="Page-1">
+                <g id="Иконки">
+                    <g id="ic_arrow_forward_ios" data-name="ic/arrow_forward_ios">
+                        <g id="ic_arrow_forward_ios_24px" data-name="ic arrow forward ios 24px">
+                            <g id="Path">
+                                <polygon id="path-1-2" data-name="path-1" class="cls-2"
+                                         points="10 0 0 10 10 20 12.12 17.88 4.24 10 12.12 2.12 10 0"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

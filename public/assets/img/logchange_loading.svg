@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 800" style="enable-background:new 0 0 2000 800;" xml:space="preserve">
+	<style type="text/css">
+	.st0 {
+		fill: #010101;
+		opacity: 0;
+	}
+	
+	.letterL {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: .6s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterL {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-15deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.letterO {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: .8s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterO {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-30deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.letterC {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: 1s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterC {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-15deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.letterH {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: 1.2s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterH {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-15deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.letterA {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: 1.4s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterA {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-15deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.letterN {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: 1.6s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterN {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-15deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.letterG {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: 1.8s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterG {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-15deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.letterE {
+		animation: letterL .6s ease-in alternate 1 forwards;
+		animation-delay: 2s;
+		transform-origin: 50% 90%;
+	}
+	
+	@keyframes letterE {
+		50% {
+			opacity: 1;
+			transform: rotateZ(-15deg);
+		}
+		70% {
+			opacity: 1;
+			transform: rotateZ(9deg);
+		}
+		100% {
+			opacity: 1;
+			transform: rotateZ(0deg);
+		}
+	}
+	
+	.truck0 {
+		fill: #64B5F6;
+	}
+	
+	.truck1 {
+		fill: #9E9E9E;
+	}
+	
+	.truck2 {
+		fill: #BDBDBD;
+	}
+	
+	.truck3 {
+		fill: #424242;
+	}
+	
+	.truck4 {
+		fill: #EEEEEE;
+	}
+	
+	.truck5 {
+		fill: #90CAF9;
+	}
+	
+	.truck6 {
+		fill: #616161;
+	}
+	
+	.truck7 {
+		fill: #E0E0E0;
+	}
+	
+	#truck {
+		transform-origin: 100% 50%;
+		animation: truck 2.1s linear alternate 1 forwards;
+	}
+	
+	@keyframes truck {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(5000px);
+		}
+	}
+	
+	.skrew {
+		opacity: 0;
+		stroke: #24558C;
+		stroke-dasharray: 300;
+		stroke-dashoffset: 600;
+		transform-origin: 50% 50%;
+		animation: skrew 3s alternate 1 forwards;
+		animation-delay: 2.2s;
+	}
+	
+	@keyframes skrew {
+		0% {
+			stroke-dashoffset: 600;
+			opacity: 1;
+			transform: scale(5, 5);
+		}
+		10% {
+			stroke-dashoffset: 600;
+			opacity: 1;
+			transform: scale(1, 1);
+		}
+		20% {
+			stroke-dashoffset: 600;
+			opacity: 1;
+			transform: scale(1.03, 1.03);
+		}
+		30% {
+			stroke-dashoffset: 600;
+			opacity: 1;
+			transform: scale(1, 1);
+		}
+		40% {
+			opacity: 1;
+			stroke-dashoffset: 600;
+			transform: translateY(0px);
+		}
+		50% {
+			opacity: 1;
+			stroke-dashoffset: 600;
+			transform: translateY(-60px);
+		}
+		70% {
+			opacity: 1;
+			stroke-dashoffset: 600;
+			transform: translateY(0px);
+		}
+		100% {
+			opacity: 1;
+			stroke-dashoffset: 470;
+			transform: translateY(0px);
+		}
+	}
+	
+	.donut {
+		opacity: 0;
+		fill: none;
+		stroke: #2762AD;
+		stroke-width: 60;
+		transform-origin: 50% 50%;
+		animation: donut 3s alternate 1 forwards;
+		animation-delay: 2.2s;
+	}
+	
+	@keyframes donut {
+		0% {
+			opacity: 1;
+			transform: scale(5, 5);
+		}
+		10% {
+			opacity: 1;
+			transform: scale(1, 1);
+		}
+		20% {
+			opacity: 1;
+			transform: scale(1.03, 1.03);
+		}
+		30% {
+			opacity: 1;
+			transform: scale(1, 1);
+		}
+		40% {
+			opacity: 1;
+			transform: translateY(0px);
+		}
+		50% {
+			opacity: 1;
+			transform: translateY(-20px);
+		}
+		70% {
+			opacity: 1;
+			transform: translateY(0px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0px);
+		}
+	}
+	</style>
+	<path class="st0 letterE" d="M1893.7,409.7c-4,3.3-8.7,5-14,5h-110.2c2.7,13.1,8.8,23.4,18.4,30.9c9.6,7.5,20.4,11.2,32.4,11.2
+	c9.1,0,16.2-0.8,21.4-2.5c5.1-1.7,9.2-3.4,12.2-5.3c3-1.9,5.1-3.2,6.2-3.8c4-2,7.8-3,11.3-3c4.7,0,8.7,1.7,12,5
+	c3.3,3.3,5,7.2,5,11.7c0,6-3.1,11.5-9.3,16.4c-6.2,5.1-14.6,9.5-25,13c-10.5,3.6-21,5.3-31.7,5.3c-18.7,0-35-3.9-48.9-11.7
+	c-13.9-7.8-24.7-18.5-32.2-32.2c-7.6-13.7-11.4-29.1-11.4-46.2c0-19.1,4-35.9,12-50.4c8-14.5,18.6-25.5,31.7-33.2
+	c13.1-7.7,27.1-11.5,42.1-11.5c14.7,0,28.5,4,41.6,12c13,8,23.4,18.8,31.2,32.4c7.8,13.6,11.7,28.3,11.7,44.1
+	C1899.8,402,1897.7,406.3,1893.7,409.7z M1769.8,381.3h87.5V379c-0.9-9.3-5.5-17.4-13.7-24c-8.2-6.7-17.6-10-28-10
+	C1789.7,344.9,1774.5,357.1,1769.8,381.3z" />
+	<path class="st0 letterG" d="M1689,313.9c3.8,3.8,5.7,8.7,5.7,14.7v148.6c0,27.1-8.4,47.2-25.2,60.3c-16.8,13-38.1,19.5-63.9,19.5
+	c-6.7,0-15.9-1.1-27.5-3.3c-11.7-2.2-20-4.5-24.9-6.7c-10.9-4.7-16.4-11.1-16.4-19.4c0-1.6,0.3-3.3,1-5.3c1.3-4.9,3.6-8.6,6.8-11.2
+	c3.2-2.6,6.7-3.8,10.5-3.8c2.2,0,4.3,0.3,6.3,1c0.9,0.2,6.4,2.3,16.5,6.2c10.1,3.9,19.3,5.8,27.5,5.8c16.5,0,28.8-3.3,36.9-9.8
+	c8.1-6.6,12.2-15.9,12.2-27.9v-16c-4.9,6.9-12.3,13.1-22.2,18.7c-9.9,5.6-20.5,8.3-31.9,8.3c-15.6,0-29.8-3.9-42.6-11.9
+	c-12.8-7.9-22.9-18.9-30.2-32.9s-11-29.9-11-47.7c0-17.8,3.6-33.8,10.8-47.9c7.2-14.1,17.1-25.1,29.7-33
+	c12.6-7.9,26.5-11.9,41.9-11.9c11.4,0,21.9,2.3,31.7,7c9.8,4.7,17.7,10.3,23.7,17v-3.7c0-5.8,1.9-10.6,5.7-14.5
+	c3.8-3.9,8.6-5.8,14.4-5.8C1680.4,308.2,1685.2,310.1,1689,313.9z M1642.1,440.9c9.5-10.6,14.2-23.9,14.2-39.9
+	c0-16-4.7-29.4-14.2-40.1c-9.5-10.7-21.6-16-36.6-16c-14.9,0-27,5.3-36.4,16c-9.3,10.7-14,24-14,40.1c0,16,4.7,29.3,14,39.9
+	c9.3,10.6,21.5,15.9,36.4,15.9C1620.5,456.8,1632.7,451.5,1642.1,440.9z" />
+	<path class="st0 letterN" d="M1462,328.4c8.7,13.5,13,32.1,13,55.9v85.5c0,5.8-1.9,10.6-5.7,14.5c-3.8,3.9-8.6,5.8-14.4,5.8
+	c-5.8,0-10.6-1.9-14.4-5.8c-3.8-3.9-5.7-8.7-5.7-14.5v-85.5c0-12.2-2.6-21.9-7.7-28.9c-5.1-7-13.9-10.5-26.4-10.5
+	c-12.9,0-23,3.7-30.4,11.2c-7.3,7.5-11,16.9-11,28.2v85.5c0,5.8-1.9,10.6-5.7,14.5c-3.8,3.9-8.6,5.8-14.4,5.8
+	c-5.8,0-10.6-1.9-14.4-5.8c-3.8-3.9-5.7-8.7-5.7-14.5V331.9c0-5.8,1.9-10.6,5.7-14.5c3.8-3.9,8.6-5.8,14.4-5.8
+	c5.8,0,10.6,2,14.4,5.8c3.8,3.9,5.7,8.7,5.7,14.5v5.7c6-8,13.9-14.9,23.5-20.7c9.7-5.8,20.3-8.7,31.9-8.7
+	C1437.6,308.2,1453.3,314.9,1462,328.4z" />
+	<path class="st0 letterA" d="M1262.1,313.9c3.8,3.8,5.7,8.7,5.7,14.7v141.2c0,5.8-1.9,10.6-5.7,14.5c-3.8,3.9-8.6,5.8-14.4,5.8
+	c-5.8,0-10.5-1.9-14.2-5.7c-3.7-3.8-5.6-8.6-5.8-14.4c-5.6,6.5-13.1,12-22.5,16.5c-9.5,4.6-19.4,6.8-29.9,6.8
+	c-15.4,0-29.3-3.9-41.7-11.9c-12.5-7.9-22.3-18.9-29.5-32.9c-7.2-14-10.8-29.9-10.8-47.7c0-17.8,3.6-33.8,10.7-47.9
+	c7.1-14.1,16.9-25.1,29.2-33c12.4-7.9,26-11.9,40.9-11.9c10.7,0,20.7,2,30,5.8c9.3,3.9,17.2,8.8,23.7,14.9v-0.3
+	c0-5.8,1.9-10.6,5.7-14.5c3.8-3.9,8.6-5.8,14.4-5.8C1253.5,308.2,1258.3,310.1,1262.1,313.9z M1215.7,440.9
+	c9.1-10.6,13.7-23.9,13.7-39.9c0-16-4.6-29.4-13.7-40.1c-9.1-10.7-20.9-16-35.4-16c-14.2,0-25.9,5.3-35.1,16
+	c-9.1,10.7-13.7,24-13.7,40.1c0,16,4.5,29.3,13.5,39.9c9,10.6,20.7,15.9,35.2,15.9C1194.7,456.8,1206.5,451.5,1215.7,440.9z" />
+	<path class="st0 letterH" d="M1038.7,328.4c8.5,13.5,12.7,32.1,12.7,55.9v85.5c0,5.8-1.9,10.6-5.7,14.5c-3.8,3.9-8.6,5.8-14.4,5.8
+	c-5.8,0-10.6-1.9-14.4-5.8c-3.8-3.9-5.7-8.7-5.7-14.5v-85.5c0-12.2-2.4-21.9-7.2-28.9c-4.8-7-13.2-10.5-25.2-10.5
+	c-12.5,0-22.2,3.7-29.2,11.2c-7,7.5-10.5,16.9-10.5,28.2v85.5c0,5.8-1.9,10.6-5.7,14.5c-3.8,3.9-8.6,5.8-14.4,5.8
+	c-5.8,0-10.6-1.9-14.4-5.8c-3.8-3.9-5.7-8.7-5.7-14.5V263.5c0-5.8,1.9-10.6,5.7-14.5c3.8-3.9,8.6-5.8,14.4-5.8
+	c5.8,0,10.6,2,14.4,5.8c3.8,3.9,5.7,8.7,5.7,14.5v73.8c6-8,13.6-14.9,22.9-20.5c9.2-5.7,19.5-8.5,30.9-8.5
+	C1015,308.2,1030.3,314.9,1038.7,328.4z" />
+	<path class="st0 letterC" d="M842.4,317c11.6,5.9,17.4,13.7,17.4,23.5c0,4.9-1.5,9.2-4.3,12.9c-2.9,3.7-6.7,5.5-11.4,5.5
+	c-3.6,0-6.5-0.5-8.7-1.5c-2.2-1-4.4-2.3-6.5-4c-2.1-1.7-4.2-3.1-6.2-4.2c-2.2-1.1-5.5-2.1-9.8-3c-4.3-0.9-7.8-1.3-10.5-1.3
+	c-16.7,0-29.8,5.2-39.2,15.5c-9.5,10.3-14.2,23.9-14.2,40.6c0,16,4.8,29.3,14.4,39.9c9.6,10.6,21.8,15.9,36.7,15.9
+	c10.9,0,19-1.3,24.4-4c1.3-0.7,3.2-1.8,5.5-3.5c2.3-1.7,4.5-2.9,6.5-3.8c2-0.9,4.4-1.3,7.3-1.3c5.6,0,10,1.8,13.2,5.3
+	c3.2,3.6,4.8,8.1,4.8,13.7c0,5.3-3.1,10.3-9.3,15c-6.2,4.7-14.5,8.4-24.7,11.2c-10.2,2.8-21.1,4.2-32.7,4.2c-17.1,0-32.2-4-45.2-12
+	c-13-8-23.1-19.1-30.2-33.2c-7.1-14.1-10.7-29.9-10.7-47.2c0-18,3.7-34.1,11.2-48.1c7.5-14,17.9-25,31.2-32.9
+	c13.4-7.9,28.5-11.9,45.4-11.9C815.6,308.2,830.9,311.1,842.4,317z" />
+	<g id="lock">
+		<path class="skrew" fill="none" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" d="M530.1,424.4c0,0,0,42.6,0,74.7s26,58.1,58.1,58.1c32.1,0,58.1-26,58.1-58.1s0-74.7,0-74.7" />
+		<circle class="donut" id="donut" cx="588.2" cy="399.5" r="62.3" />
+	</g>
+	<path class="st0 letterO" d="M452.2,448.9c-8,14.1-19,25.1-32.9,32.9c-13.9,7.8-29.2,11.7-45.9,11.7c-16.9,0-32.3-3.9-46.1-11.7
+	c-13.8-7.8-24.7-18.7-32.7-32.9c-8-14.1-12-30.1-12-47.9c0-17.8,4-33.8,12-47.9c8-14.1,18.9-25.1,32.7-33
+	c13.8-7.9,29.2-11.9,46.1-11.9c16.7,0,32,4,45.9,11.9c13.9,7.9,24.9,18.9,32.9,33c8,14.1,12,30.1,12,47.9
+	C464.2,418.8,460.2,434.8,452.2,448.9z M417.3,371.8c-4.6-8.6-10.7-15.2-18.4-19.9c-7.7-4.7-16.2-7-25.5-7s-17.9,2.3-25.5,7
+	s-13.8,11.3-18.4,19.9c-4.6,8.6-6.8,18.3-6.8,29.2c0,10.9,2.3,20.6,6.8,29c4.6,8.5,10.7,15,18.4,19.7c7.7,4.7,16.2,7,25.5,7
+	s17.9-2.3,25.5-7c7.7-4.7,13.8-11.2,18.4-19.7c4.6-8.5,6.8-18.1,6.8-29C424.1,390.1,421.9,380.4,417.3,371.8z" />
+	<path class="st0 letterL" d="M243.4,456.6c3.9,3.7,5.8,8.4,5.8,14.2c0,5.6-2,10.2-5.8,13.9c-3.9,3.7-8.7,5.5-14.5,5.5H120.4
+	c-5.8,0-10.6-1.9-14.5-5.8c-3.9-3.9-5.8-8.7-5.8-14.5v-193c0-5.8,2-10.6,6-14.5c4-3.9,9.1-5.8,15.4-5.8c5.6,0,10.3,2,14.4,5.8
+	c4,3.9,6,8.7,6,14.5v174.3h87.1C234.6,451.1,239.5,452.9,243.4,456.6z" />
+	<g id="truck">
+		<path class="truck0" d="M-120,220v-45.6c0-7-4.5-13.3-11.2-15.5l-147.3-49.1c-10.6-3.5-21.5,4.4-21.5,15.5V220H-120z" />
+		<path class="truck1" d="M-1230,640h-420c-16.6,0-30-13.4-30-30v-60h450V640z" />
+		<path class="truck2" d="M-958.3,580H-1710c-16.6,0-30-13.4-30-30v-60h990l-154.7,77.3C-921.3,575.7-939.7,580-958.3,580z" />
+		<circle class="truck3" cx="-1290" cy="610" r="90" />
+		<circle class="truck4" cx="-1290" cy="610" r="45" />
+		<circle class="truck3" cx="-1470" cy="610" r="90" />
+		<circle class="truck4" cx="-1470" cy="610" r="45" />
+		<rect x="-660" y="520" class="truck2" width="660" height="120" />
+		<circle class="truck3" cx="-480" cy="610" r="90" />
+		<circle class="truck4" cx="-480" cy="610" r="45" />
+		<circle class="truck3" cx="-660" cy="610" r="90" />
+		<circle class="truck4" cx="-660" cy="610" r="45" />
+		<path class="truck5" d="M0,580h-150v-60h-150V190h243.5c15.1,0,27.9,11.3,29.8,26.3l20.9,167.4c3.9,30.9,5.8,61.9,5.8,93L0,580L0,580z
+		" />
+		<rect x="-150" y="520" class="truck0" width="150" height="60" />
+		<circle class="truck3" cx="-150" cy="610" r="90" />
+		<circle class="truck4" cx="-150" cy="610" r="45" />
+		<g>
+			<path class="truck0" d="M-150,250h-75c-8.3,0-15,6.7-15,15v87c0,10.5,7.3,19.7,17.6,22L-150,390V250z" />
+			<path class="truck0" d="M-5.8,383.7L-22.5,250H-225c-8.3,0-15,6.7-15,15v87c0,10.5,7.3,19.7,17.6,22l220.3,48.9
+			C-3.1,409.8-4.2,396.7-5.8,383.7z" />
+		</g>
+		<path class="truck6" d="M-150,390l147.9,32.9c-0.9-13.1-2-26.2-3.7-39.2L-22.5,250H-150V390z" />
+		<path class="truck4" d="M-1740,100h1380c16.6,0,30,13.4,30,30v360c0,16.6-13.4,30-30,30h-1380c-16.6,0-30-13.4-30-30V130
+		C-1770,113.4-1756.6,100-1740,100z" />
+		<path class="truck7" d="M-420,460h-1260c-16.6,0-30-13.4-30-30l0,0c0-16.6,13.4-30,30-30h1260c16.6,0,30,13.4,30,30l0,0
+		C-390,446.6-403.4,460-420,460z" />
+	</g>
+</svg>

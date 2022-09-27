@@ -1,0 +1,66 @@
+.btn-create{
+  margin-bottom: 17px;
+  margin-top: -34px;
+  float: right !important;
+}
+
+.tbl {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tbl td, .tbl th {
+  padding: 15px 12px;
+}
+.tbl td{
+  border: 1px solid #eee;
+}
+
+.tbl td a {
+  color: #6EB8E5;
+  text-decoration: none;
+}
+
+.tbl th {
+  border-top: none;
+}
+.tbl td{
+  background: none;
+}
+
+.tbl td:hover{
+  background-color:#0099FF;
+}
+
+.circle.black:before{
+    background-color: black;
+}
+.circle.white:before{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999999999;
+    background: url('/assets/img/spinner.svg') 50% 50% no-repeat rgb(249,249,249);
+    opacity: 0.8;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+input.has-error, select.has-error{
+    border: 1px solid red;
+}
+
+.main-menu .main-menu-list .main-menu-item .ico-orders {
+    background-image: url(/assets/img/icons/orders-white.svg);
+    background-repeat: no-repeat;
+    left: 18px;
+}

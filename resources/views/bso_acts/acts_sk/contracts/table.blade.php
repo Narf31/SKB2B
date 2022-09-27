@@ -1,0 +1,1 @@
+@include("payments.reports.payments", ["payments"=>$payments])

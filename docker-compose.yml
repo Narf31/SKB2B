@@ -1,0 +1,41 @@
+version: '2'
+services:
+    web:
+        container_name: m5_web
+        build:
+            context: ./
+            dockerfile: deploy/web.docker
+        volumes:
+            - ./:/var/www
+        ports:
+            - "127.0.0.1:8000:80"
+        links:
+            - app
+    app:
+        container_name: m5_app
+        build:
+            context: ./
+            dockerfile: deploy/app.docker
+        volumes:
+            - ./:/var/www
+        links:
+            - database
+        environment:
+            - "DB_PORT=3306"
+            - "DB_HOST=database"
+    database:
+        container_name: m5_db
+        image: mysql:5.7
+        ports:
+            - "127.0.0.1:3306:3306"
+        restart: always
+        environment:
+            - "MYSQL_USERNAME=root"
+            - "MYSQL_USER=root"
+            - "MYSQL_ROOT_PASSWORD=secret"
+    pgadmin:
+        container_name: m5_adminer
+        image: adminer
+        restart: always
+        ports:
+            - "127.0.0.1:8080:8080"
